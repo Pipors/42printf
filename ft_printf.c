@@ -6,7 +6,7 @@
 /*   By: aatbir <aatbir@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/23 22:35:19 by aatbir            #+#    #+#             */
-/*   Updated: 2022/12/03 15:18:51 by aatbir           ###   ########.fr       */
+/*   Updated: 2023/01/05 14:00:51 by aatbir           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,3 +55,8 @@ int	ft_printf(const char *str, ...)
 	return (count);
 	va_end(arg);
 }
+
+/*int main()
+{
+	ft_printf("anas");
+}*/
